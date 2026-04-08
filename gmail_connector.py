@@ -78,6 +78,7 @@ def fetch_emails(service, max_emails=10):
             'date': date,
             'body': body[:1000]  # Limit to 1000 chars
         })
+    #this is the end of the function
     
     print(f"✅ Fetched {len(emails)} emails")
     return emails

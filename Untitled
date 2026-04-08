@@ -1,6 +1,17 @@
-anthropic
-python-dotenv
-google-auth-oauthlib
-google-auth-httplib2
-google-api-python-client
-schedule
+# AI Email Data Extractor
+
+An AI-powered pipeline that automatically ingests emails from 
+Gmail, extracts structured data using Claude AI, and outputs 
+clean JSON reports — replacing manual data entry entirely.
+
+## What it does
+
+- Connects directly to Gmail via Google API
+- Automatically fetches unread emails from inbox
+- Uses Claude AI to extract structured data from each email
+- Classifies by issue type, sentiment, and priority
+- Outputs clean JSON and a readable report
+- Runs automatically on a schedule (every 30 minutes)
+- Tracks time saved and processing stats
+
+## Multi-Step Pipeline
